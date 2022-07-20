@@ -97,10 +97,8 @@ how to build applications with Clean Architecture concepts.
 
 Each Package has its responsibilities, which will explain below the image:
 
-![alt text for screen readers](tree.png "Project Structure")
-
 ### App
-    Contains the source code structure that connects the front-end with the back-end, where the Rest, DTO and Services services are located to connect with the Domain layer;
+Contains the source code structure that connects the front-end with the back-end, where the Rest, DTO and Services services are located to connect with the Domain layer;
 
 ### Cross
     TODO:
