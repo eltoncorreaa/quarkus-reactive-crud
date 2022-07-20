@@ -58,6 +58,8 @@ If you want to learn more about building native executables, please consult http
 
 This Application is divided into some packages, to provide a pretty understood about 
 how to build applications with Clean Architecture concepts.
+
+```shell script
 ├── app
 │   ├── dto
 │   │   ├── PaymentRequest.java
@@ -94,6 +96,8 @@ how to build applications with Clean Architecture concepts.
         └── repository
             ├── IPaymentRepository.java
             └── PaymentRepository.java
+
+```
 
 Each Package has its responsibilities, which will explain below the image:
 
