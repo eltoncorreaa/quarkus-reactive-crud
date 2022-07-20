@@ -101,13 +101,13 @@ Each Package has its responsibilities, which will explain below the image:
 Contains the source code structure that connects the front-end with the back-end, where the Rest, DTO and Services services are located to connect with the Domain layer;
 
 ### Cross
-    TODO:
+Responsible for containing implementations of utilities that can be used in all layers of the architecture;
 
 ### Domain
-    TODO:
+Responsible for storing the system's business logic and entity classes. This layer communicates with the infrastructure, passing the data to be stored or sent to a kafka topic for example;
 
 ### Infra -> DB
-    TODO:
+Responsible for containing all persistence entities and repositories that communicate with the database, making data storage possible;
     
 ## Postgres Container
 
